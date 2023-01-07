@@ -19,7 +19,7 @@ export interface Props {
   className?: string;
   style?: CSSProperties;
   value?: number;
-  initialValue: InitialValue;
+  initialValue?: InitialValue;
   onChange?: (args: onChangeArgs) => void;
 }
 
